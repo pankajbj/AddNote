@@ -13,7 +13,7 @@ import android.widget.ListView;
 import android.widget.SearchView;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
-    ListView listView;
+    ListView listView;//comment hi this checking
     MyCursorAdapter adapter;
     Db_class db;
     Cursor cursor;
